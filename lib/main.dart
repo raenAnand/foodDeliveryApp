@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:food_delivery/views/home.dart';
+import 'package:food_delivery/views/login.dart';
 
 void main() {
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: primary_color,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Signin(),
     );
   }
   static const primaryColor = Colors.white;
